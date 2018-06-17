@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:gravity="top|center"
+	android:orientation="vertical">
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:text="Java编译器"
+		android:layout_gravity="top|left"
+		android:textSize="30sp"
+		android:layout_marginLeft="10dp"
+		android:layout_marginTop="10dp"
+		android:id="@+id/title"/>
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:orientation="horizontal"
+		android:gravity="center"
+		android:layout_marginTop="10dp">
+
+		<EditText
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:ems="10"
+			android:hint="请输入java文件夹"
+			android:id="@+id/input"/>
+
+		<ImageButton
+			android:layout_height="wrap_content"
+			android:layout_width="75dp"
+			android:src="@drawable/ic_action_pick_sdcard"
+			android:id="@+id/inputPath"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:orientation="horizontal"
+		android:gravity="center">
+
+		<EditText
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:ems="10"
+			android:id="@+id/lib"
+			android:hint="请输入lib文件夹,可以为空"/>
+
+		<ImageButton
+			android:layout_height="wrap_content"
+			android:layout_width="75dp"
+			android:src="@drawable/ic_action_pick_sdcard"
+			android:id="@+id/libPath"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:orientation="horizontal"
+		android:gravity="center">
+
+		<EditText
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:ems="10"
+			android:hint="请输入dex存放文件夹"
+			android:id="@+id/output"/>
+
+		<ImageButton
+			android:layout_height="wrap_content"
+			android:layout_width="75dp"
+			android:src="@drawable/ic_action_pick_sdcard"
+			android:id="@+id/outputPath"/>
+
+	</LinearLayout>
+
+	<Button
+		style="?android:attr/buttonStyleSmall"
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:text="编译"
+		android:textSize="25sp"
+		android:layout_marginLeft="15dp"
+		android:layout_marginRight="15dp"
+		android:layout_marginTop="15dp"
+		android:id="@+id/compile"/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:text="编译大文件时会卡顿或黑屏，等待即可，不会造成影响。"
+		android:layout_marginLeft="10dp"
+		android:layout_marginRight="10dp"
+		android:layout_gravity="center"
+		android:gravity="center"
+		android:layout_marginTop="10dp"
+		android:id="@+id/ccc"/>
+
+</LinearLayout>
+

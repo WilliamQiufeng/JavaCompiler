@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="horizontal">
+
+	<ImageView
+		android:id="@+id/entryFileImage"
+		android:layout_width="42dp"
+		android:layout_height="42dp"
+		android:gravity="center|center"/>
+
+	<TextView
+		android:id="@+id/entryFileName"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:padding="10dp"
+		android:paddingLeft="10dp"
+		android:textSize="17sp"/>
+
+</LinearLayout>
+

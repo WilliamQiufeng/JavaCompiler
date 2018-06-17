@@ -1,0 +1,23 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="100dp"
+    android:orientation="vertical"
+	android:id="@+id/fcdl"
+>
+    <Button
+		android:id="@+id/fcdbtnlf"
+		android:layout_width="fill_parent"
+		android:layout_height="50dp"
+		android:text="@string/lf"
+		android:textSize="17sp"
+		android:background="#03A9F4"
+	/>
+	<Button
+		android:id="@+id/fcdbtnc"
+		android:layout_width="fill_parent"
+		android:layout_height="50dp"
+		android:text="@string/cancel"
+		android:textSize="17sp"
+		android:background="#03F523"
+	/>
+</LinearLayout>
